@@ -1,0 +1,482 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a.active{
+    color: #5E3BEE;
+}
+button{
+    cursor: pointer;
+    border: 1px solid #5E3BEE;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+button a{
+    color: #5E3BEE;
+}
+
+.contact-btn{
+    width: 12rem;
+    font-size: 25px;
+    margin-right: 5rem;
+}
+
+.container{
+    background-color: #fff;
+    padding: 20px 0;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.header .logo img{
+    width: 250px;
+   margin-left: 5rem;
+    
+}
+.header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+    .header .logo img {
+        width: 300px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header nav {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+}
+
+.container2{
+    background-color: rgb(246, 252, 255);
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container2 .container2-img img{
+    margin-top: 40px;
+    width: 600px;
+    margin-right: 10rem;
+}
+.container2-text{
+    margin-left: 5rem;
+}
+.top-text{
+    font-size: 15px;
+    font-weight: bold;
+}
+.middle-text{
+    font-weight: bold;
+    font-size: 40px;
+}
+.purpled{
+    color: #5E3BEE;
+}
+
+.getintouch-btn{
+    margin-top: 2rem;
+    background-color: #5E3BEE;
+    
+}
+.getintouch-btn a{
+    color: white;
+}
+.container3{
+   margin-left: 5rem;
+   margin-top: 1rem;
+}
+.container4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.itemincon4{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    background-color:  rgb(246, 252, 255);
+    border-radius: 5px;
+    
+}
+.logocon4{
+    margin: 15px;
+    
+}
+.logocon4 img{
+    width: 2.5rem;
+}
+.textcont4{
+    margin:15px;
+}
+
+.textcont4 p{
+    margin-top: 10px;
+}
+
+.container5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+.logocont5 img{
+    width: 500px;
+    margin-left: 5rem;
+}
+.textcont5{
+   margin-left: 10rem;
+    margin-right: 20rem;
+}
+
+.textcont5 h1{
+    margin-top: 0.5rem;
+}
+.textcont5 p{
+    margin-top: 0.5rem;
+}
+.container6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+}
+.cont6-btn{
+    background-color: rgb(243, 71, 100);
+    margin-right: 5rem;
+    border: 1px pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont6-btn img{
+    width: 20px;
+   margin-right: 10px;
+}
+.cont6-btn a{
+    color: white;
+    
+}
+
+.textcont6{
+    margin-left: 5rem;
+}
+.textcont6 h1{
+    margin-top: 0.5rem;
+}
+.container7{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    gap:1rem;
+}
+.itemincont7{
+    background-color: white;
+    
+    
+}
+.imgcont7 img{
+    width: 35rem;
+    border-radius: 5px;
+   
+}
+.itemincont7 h3{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.itemincont7 p{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+}
+
+.itemincont7 a{
+    margin-left: 1rem;
+    text-decoration: underline;
+    text-decoration-color: #5E3BEE;
+    font-weight: bold;
+}
+.container8{
+   
+    background-color: rgb(246, 252, 255);
+    padding-bottom: 150px;
+}
+.cont8header{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding-top:7rem ;
+}
+
+.cont8header h1{
+    margin-top: 0.5rem;
+}
+.testemonials{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    gap:2rem;
+   
+}
+.singletestemonial{
+    border: solid 1px green;
+    border-radius: 5px;
+}
+.stars img{
+    width: 8rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.usercomment{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.userlogo img{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 6rem;
+}
+.usernameandworkplace{
+    display: block;
+    margin-right: 17rem;
+    margin-top: 2rem;
+}
+.usernameandworkplace p{
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+}
+.cont9-header{
+    text-align: center;
+    margin-top: 5rem;
+}
+.cont9-header h1{
+    margin-top: 1rem;
+}
+.cont9-header p{
+    margin-top: 1rem;
+}
+.fandlname{
+    margin-top: 3rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    
+}
+.firstname{
+    margin-left: 40rem;
+}
+.firstname label{
+    font-size: 15px;
+}
+.firstname input{
+    margin-top: 0.5rem;
+    width: 19rem;
+    padding: 8px;
+   border: solid 1px #5E3BEE;
+   border-radius: 5px;
+}
+
+.lastname{
+    margin-right: 40rem;
+}
+.lastname label{
+    font-size: 15px;
+}
+.lastname input{
+    margin-top: 0.5rem;
+    width: 19rem;
+    padding: 8px;
+    border: solid 1px #5E3BEE;
+   border-radius: 5px;
+}
+.emailandpn{
+    margin-top: 2rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.email{
+    margin-left: 40rem;
+}
+.email label{
+    font-size: 15px;
+}
+.email input{
+    margin-top: 0.5rem;
+    width: 19rem;
+    padding: 8px;
+   border: solid 1px #5E3BEE;
+   border-radius: 5px;
+}
+.phonum{
+    margin-right: 40rem;
+}
+.phonumb label{
+    font-size: 15px;
+}
+.phonum input{
+    margin-top: 0.5rem;
+    width: 19rem;
+    padding: 8px;
+    border: solid 1px #5E3BEE;
+   border-radius: 5px;
+}
+
+.choosetopic{
+   margin-left: 40rem;
+   margin-top: 2rem;
+   
+}
+.choosetopic label{
+    font-size:15px;
+   
+    
+}
+.choosetopic select{
+    margin-top: 0.5rem;
+    width:39rem;
+    padding: 8px;
+    border: solid 1px #5E3BEE;
+    border-radius: 5px;
+}
+
+.message{
+    margin-left: 40rem;
+    margin-top: 2rem;
+}
+
+.message label{
+    font-size: 15px;
+}
+.message textarea{
+    margin-top: 0.5rem;
+    width:39rem;
+    padding-bottom: 60px;
+    padding-top: 5px;
+   
+    border: solid 1px #5E3BEE;
+    border-radius: 5px;
+}
+
+.terms{
+    margin-left: 40rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.submit-btn{
+    text-align: center;
+    margin-top: 1rem;
+}
+.submit-btn button{
+    background-color: #5E3BEE;
+    color: white;
+    width:6rem;
+}
+.container10{
+    margin-top: 2rem;
+    
+    margin-bottom: 5rem;
+    background-color: rgb(246, 252, 255);
+}
+
+.footermenu{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:5rem;
+    padding-top: 3rem;
+    
+}
+.footerlogo img{
+    width: 150px;
+    
+
+}
+
+.footerul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    
+}
+.footerul li{
+    color:black;
+    font-weight: bold;
+    font-size: 12px;
+}
+.logos{
+    margin-right: 5rem;
+}
+.logos img{
+    width: 30px;
+    margin-right: 0.5rem;
+}
+.line{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+.secondfooter{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.love{
+    margin-left: 5rem;
+}
+.policy{
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    list-style: none;
+}
